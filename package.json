@@ -1,21 +1,10 @@
 {
-  "name": "express-hello-world",
+  "name": "node_shell",
   "version": "1.0.0",
-  "description": "Express Hello World",
-  "main": "index.js",
-  "repository": "",
-  "author": "Misaka-blog",
-  "license": "MIT",
-  "private": false,
   "scripts": {
-    "start": "node index.js"
+    "start": "node node_shell.js"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "request": "^2.88.2"
-  },
-  "engines": {
-    "node": ">=14"
+  "devDependencies": {
+    "@architect/sandbox": "^5.3.4"
   }
 }
