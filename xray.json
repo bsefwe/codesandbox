@@ -27,7 +27,7 @@
             "settings": {"method": "chacha20-ietf-poly1305","password": "5aaed9b7-7fe3-47c3-bb52-db59859ce198"},
             "streamSettings": {"security": "none","network": "domainsocket","dsSettings": {"path": "apath","abstract": true}}
         },
-        {   "port": 5234,"listen": "127.0.0.1","protocol": "socks",
+        {   "port": 8080,"listen": "127.0.0.1","protocol": "socks",
             "settings": {"auth": "password","accounts": [{"user": "5aaed9b7-7fe3-47c3-bb52-db59859ce198","pass": "5aaed9b7-7fe3-47c3-bb52-db59859ce198"}]},
             "streamSettings": {"network": "ws","wsSettings": {"path": "/5aaed9b7-7fe3-47c3-bb52-db59859ce198-socks"}}
         }
